@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "secondexperiment",
+    "WoC": "woc-project-26bd4",
+    "demo": "fir-2a29a",
+    "demo2": "firstexperiment-328102",
+    "demo3": "firebasetest-334216",
+    "demo4": "realproject-321304",
+    "demo5": "secondexperiment"
+  },
+  "targets": {},
+  "etags": {}
+}

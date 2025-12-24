@@ -1,0 +1,13 @@
+{
+  "name": "thirdexperimentexp",
+  "version": "1.0.0",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "dropbox": "^10.23.0",
+    "firebase": "^9.17.1"
+  },
+  "devDependencies": {
+    "@google-cloud/storage": "^5.14.3",
+    "webpack-cli": "^4.8.0"
+  }
+}

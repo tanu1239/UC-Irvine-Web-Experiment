@@ -1,0 +1,25 @@
+var test_stimuli = [
+    { stimulus: '<img src="images/imagetints/2expred1.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp15ans.JPG">', statement: '<img src="images/tempimages/set1/temp15.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred2.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp9ans.JPG">', statement: '<img src="images/tempimages/set1/temp9.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred20.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp16ans.JPG">', statement: '<img src="images/tempimages/set1/temp16.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred12.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp10ans.JPG">', statement: '<img src="images/tempimages/set1/temp10.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred10.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp13ans.JPG">', statement: '<img src="images/tempimages/set1/temp13.JPG">'},
+    //{ stimulus: '<img src="images/imagetints/2expred9.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp7ans.JPG">', statement: '<img src="images/tempimages/set1/temp7.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred8.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp3ans.JPG">', statement: '<img src="images/tempimages/set1/temp3.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred7.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp20ans.JPG">', statement: '<img src="images/tempimages/set1/temp20.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred6.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp19ans.JPG">', statement: '<img src="images/tempimages/set1/temp19.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred15.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp8ans.JPG">', statement: '<img src="images/tempimages/set1/temp8.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred18.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp4ans.JPG">', statement: '<img src="images/tempimages/set1/temp4.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred17.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp14ans.JPG">', statement: '<img src="images/tempimages/set1/temp14.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred4.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp18ans.JPG">', statement: '<img src="images/tempimages/set1/temp18.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred16.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp1ans.JPG">', statement: '<img src="images/tempimages/set1/temp1.JPG">'},
+    //{ stimulus: '<img src="images/imagetints/2expyel19.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp38ans.JPG">', statement: '<img src="images/tempimages/set1/temp38.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred14.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp11ans.JPG">', statement: '<img src="images/tempimages/set1/temp11.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred13.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp6ans.JPG">', statement: '<img src="images/tempimages/set1/temp6.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred11.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp5ans.JPG">', statement: '<img src="images/tempimages/set1/temp5.JPG">'},
+    { stimulus: '<img src="images/imagetints/2expred3.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp2ans.JPG">', statement: '<img src="images/tempimages/set1/temp2.JPG">'},
+    //{ stimulus: '<img src="images/imagetints/blue14.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp57ans.JPG">', statement: '<img src="images/tempimages/set1/temp57.JPG">'},
+    // { stimulus: '<img src="images/imagetints/blue1.JPG">', trial_duration: 500, correct_response: '<img src="images/tempimages/set1/temp59ans.JPG">', statement: '<img src="images/tempimages/set1/temp59.JPG">'},
+
+
+]

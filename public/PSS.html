@@ -1,0 +1,213 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8" />
+    <title>Psychology Experiment - Perceived Stress Scale</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="icon" href="favicon.ico" />
+    <script type="text/javascript">
+        function onexit() {
+            self.close(); // no harm, no foul here
+        }
+    </script>
+    <style type="text/css">
+        .pss{
+            visibility: hidden;
+        }
+    </style>
+    <script type="text/javascript">
+        /***********************************************
+         * Random Content Order script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+         * Please keep this notice intact
+         * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+         ***********************************************/
+
+        function randomizeContent(classname){
+            var contents=randomizeContent.collectElementbyClass(classname)
+            contents.text.sort(function() {return 0.5 - Math.random();})
+            var tbodyref=contents.ref[0].tagName=="TR"? contents.ref[0].parentNode : new Object()
+            for (var i=0; i<contents.ref.length; i++){
+                if (tbodyref.moveRow) //if IE
+                    tbodyref.moveRow(0, Math.round(Math.random()*(tbodyref.rows.length-1)))
+                else
+                    contents.ref[i].innerHTML=contents.text[i]
+                contents.ref[i].style.visibility="visible"
+            }
+        }
+
+        randomizeContent.collectElementbyClass=function(classname){ //return two arrays containing elements with specified classname, plus their innerHTML content
+            var classnameRE=new RegExp("(^|\\s+)"+classname+"($|\\s+)", "i") //regular expression to screen for classname within element
+            var contentobj=new Object()
+            contentobj.ref=new Array() //array containing references to the participating contents
+            contentobj.text=new Array() //array containing participating contents' contents (innerHTML property)
+            var alltags=document.all? document.all : document.getElementsByTagName("*")
+            for (var i=0; i<alltags.length; i++){
+                if (typeof alltags[i].className=="string" && alltags[i].className.search(classnameRE)!=-1){
+                    contentobj.ref[contentobj.ref.length]=alltags[i]
+                    contentobj.text[contentobj.text.length]=alltags[i].innerHTML
+                }
+            }
+            return contentobj
+        }
+    </script>
+    <!--
+-->
+    <style>
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            .legal, .legal * {
+                visibility: visible;
+            }
+            .legal {
+                position: absolute;
+                left: auto;
+                top: auto;
+                overflow:visible;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div id="perceivedStress">
+    <h4>The questions in this scale ask you about your feelings and thoughts during the last month. All data are strictly anonymous and confidential and will not under any circumstances be passed to a third party.<br>
+        <br> In each case, you will be asked to indicate by clicking how often you felt or thought a certain way. </h4>
+    <hr>
+    <div class="legal well">
+            <div class="pss">
+                <br>In the last month, how often have you been upset because of something that happened unexpectedly? &nbsp
+                <p>
+                <input name="1" type="radio" value=0/>Never
+                <input name="1" type="radio" value=1/>Almost Never
+                <input name="1" type="radio" value=2/>Sometimes
+                <input name="1" type="radio" value=3/>Fairly Often
+                <input name="1" type="radio" value=4/>Very Often
+                </p>
+            </div>
+            <br>
+            <div class="pss">
+                <br> In the last month, how often have you felt that you were unable to control the important things in your life?  &nbsp
+                <p>
+                <input name="2" type="radio" value=0/>Never
+                <input name="2" type="radio" value=1/>Almost Never
+                <input name="2" type="radio" value=2/>Sometimes
+                <input name="2" type="radio" value=3/>Fairly Often
+                <input name="2" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you felt nervous and “stressed”? &nbsp
+                <p>
+                <input name="3" type="radio" value=0/>Never
+                <input name="3" type="radio" value=1/>Almost Never
+                <input name="3" type="radio" value=2/>Sometimes
+                <input name="3" type="radio" value=3/>Fairly Often
+                <input name="3" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you felt confident about your ability to handle your personal problems? &nbsp
+                <p>
+                <input name="4" type="radio" value=0/>Never
+                <input name="4" type="radio" value=1/>Almost Never
+                <input name="4" type="radio" value=2/>Sometimes
+                <input name="4" type="radio" value=3/>Fairly Often
+                <input name="4" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you felt that things were going your way? &nbsp
+                <p>
+                <input name="5" type="radio" value=0/>Never
+                <input name="5" type="radio" value=1/>Almost Never
+                <input name="5" type="radio" value=2/>Sometimes
+                <input name="5" type="radio" value=3/>Fairly Often
+                <input name="5" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you found that you could not cope with all the things that you had to do? &nbsp
+                <p>
+                <input name="6" type="radio" value=0/>Never
+                <input name="6" type="radio" value=1/>Almost Never
+                <input name="6" type="radio" value=2/>Sometimes
+                <input name="6" type="radio" value=3/>Fairly Often
+                <input name="6" type="radio" value=4/>Very Often
+                </p>
+                
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you been able to control irritations in your life? &nbsp
+                <p>
+                <input name="7" type="radio" value=0/>Never
+                <input name="7" type="radio" value=1/>Almost Never
+                <input name="7" type="radio" value=2/>Sometimes
+                <input name="7" type="radio" value=3/>Fairly Often
+                <input name="7" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you felt that you were on top of things? &nbsp
+                <p>
+                <input name="8" type="radio" value=0/>Never
+                <input name="8" type="radio" value=1/>Almost Never
+                <input name="8" type="radio" value=2/>Sometimes
+                <input name="8" type="radio" value=3/>Fairly Often
+                <input name="8" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you been angered because of things that were outside of your control? &nbsp
+                <p>
+                <input name="9" type="radio" value=0/>Never
+                <input name="9" type="radio" value=1/>Almost Never
+                <input name="9" type="radio" value=2/>Sometimes
+                <input name="9" type="radio" value=3/>Fairly Often
+                <input name="9" type="radio" value=4/>Very Often
+                </p>
+
+            </div>
+            <br>
+            <div class="pss">
+                <br>In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?  &nbsp
+               <p>
+                <input name="10" type="radio" value=0/>Never
+                <input name="10" type="radio" value=1/>Almost Never
+                <input name="10" type="radio" value=2/>Sometimes
+                <input name="10" type="radio" value=3/>Fairly Often
+                <input name="10" type="radio" value=4/>Very Often
+               </p>
+
+            </div>
+            <br>
+        </div>
+    <div style="text-align:center;">
+        <button type="button" id="submitPSS">Submit</button>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    //randomize order of contents with DIV class="pss"
+    randomizeContent("pss")
+
+</script>
+
+</body>
+</html>
