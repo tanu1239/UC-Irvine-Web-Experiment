@@ -1,5 +1,7 @@
 # Temperature Estimation Task (Wisdom of Crowds Experiment)
 
+## Quick Demo Link (Firebase hosting):  https://newcomputer-35783.web.app
+
 **Wisdom of Crowds (WoC)** refers to the phenomenon where aggregating the judgments of many imperfect estimators can produce highly accurate results. A classic example is that averaging many people’s guesses often yields a better estimate than relying on a single individual, even when no individual is especially accurate.
 
 This repository contains a browser-based behavioral experiment designed to study how people combine multiple noisy sources of information when making repeated estimates. Specifically, the task examines whether participants learn to:
